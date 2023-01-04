@@ -1,0 +1,10 @@
+[data-theme="light"] {
+    --body-bg: gray;
+  }
+  [data-theme="dark"] {
+    --body-bg: black;
+  }
+  body {
+    background-color: var(--body-bg);
+  }
+  
